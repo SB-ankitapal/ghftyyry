@@ -223,6 +223,59 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: 6f7w7gh6actsr
+  '/{gvhbjnkml}/jhgjhbjhbj<jhgjhj>/{dfcghjk}':
+    parameters:
+      - schema:
+          type: string
+        name: gvhbjnkml
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: dfcghjk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gvhbjnkml
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: dfcghjk
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: gvhbjnkml
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: dfcghjk
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-gvhbjnkml-jhgjhbjhbj-jhgjhj-dfcghjk
+      x-stoplight:
+        id: l23ehci8a8k2e
+    options:
+      summary: Your OPTIONS endpoint
+      tags: []
+      responses: {}
+      operationId: options-gvhbjnkml-jhgjhbjhbj-jhgjhj-dfcghjk
+      x-stoplight:
+        id: 9urbid45qrfon
+    trace:
+      summary: Your TRACE endpoint
+      tags: []
+      responses: {}
+      operationId: trace-gvhbjnkml-jhgjhbjhbj-jhgjhj-dfcghjk
+      x-stoplight:
+        id: d1og8325th4nn
 components:
   schemas:
     User:
