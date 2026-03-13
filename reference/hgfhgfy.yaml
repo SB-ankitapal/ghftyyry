@@ -10,6 +10,11 @@ paths:
   '/users/{userId}':
     parameters:
       - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
           type: integer
         name: userId
         in: path
@@ -95,6 +100,13 @@ paths:
         description: Patch user properties to update.
       x-stoplight:
         id: qkghtols1d4tb
+    head:
+      summary: Your HEAD endpoint
+      tags: []
+      responses: {}
+      operationId: head-users-userId
+      x-stoplight:
+        id: 93r27f6tjswij
   /user:
     post:
       summary: Create New User
