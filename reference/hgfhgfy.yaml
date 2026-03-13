@@ -25,6 +25,21 @@ paths:
         in: path
         required: true
       - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
           type: integer
         name: userId
         in: path
@@ -131,6 +146,27 @@ paths:
       operationId: post-users-userId
       x-stoplight:
         id: g96xwkk6agd7u
+    delete:
+      summary: Your DELETE endpoint
+      tags: []
+      responses: {}
+      operationId: delete-users-userId
+      x-stoplight:
+        id: 0z4ogdxlr5sj2
+    put:
+      summary: Your PUT endpoint
+      tags: []
+      responses: {}
+      operationId: put-users-userId
+      x-stoplight:
+        id: azeua5hl7bj4l
+    options:
+      summary: Your OPTIONS endpoint
+      tags: []
+      responses: {}
+      operationId: options-users-userId
+      x-stoplight:
+        id: b9juziwb6uvda
   /user:
     post:
       summary: Create New User
