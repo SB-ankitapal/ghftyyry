@@ -15,6 +15,16 @@ paths:
         in: path
         required: true
       - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+      - schema:
           type: integer
         name: userId
         in: path
@@ -107,6 +117,20 @@ paths:
       operationId: head-users-userId
       x-stoplight:
         id: 93r27f6tjswij
+    trace:
+      summary: Your TRACE endpoint
+      tags: []
+      responses: {}
+      operationId: trace-users-userId
+      x-stoplight:
+        id: az00dhp8zrhdh
+    post:
+      summary: Your POST endpoint
+      tags: []
+      responses: {}
+      operationId: post-users-userId
+      x-stoplight:
+        id: g96xwkk6agd7u
   /user:
     post:
       summary: Create New User
