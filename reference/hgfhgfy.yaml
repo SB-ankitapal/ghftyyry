@@ -221,3 +221,9 @@ components:
         - emailVerified
       x-stoplight:
         id: s7jw2whpry451
+  requestBodies:
+    gfxgfx:
+      content:
+        application/json:
+          schema:
+            type: object
